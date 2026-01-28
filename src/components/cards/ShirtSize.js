@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 
 const ShirtSize = (props) => {
   // State to manage the image source
-  const [imageSrc, setImageSrc] = useState('https://res.cloudinary.com/trueshopping/image/upload/f_webp,q_auto/v1682409807/product/producr-master/xtoizobgqchkb0yubluf.jpg');
+  const [imageSrc, setImageSrc] = useState('https://tramanao.com/static/media/product/2023/04/19/15/5391/20230426-100332.ecom_%E0%B8%99%E0%B8%A8%E0%B8%8D.%E0%B9%80%E0%B8%AA%E0%B8%B7%E0%B9%89%E0%B8%AD%E0%B9%80%E0%B8%8A%E0%B8%B4%E0%B9%89%E0%B8%95%E0%B9%81%E0%B8%82%E0%B8%99%E0%B8%A2%E0%B8%B2%E0%B8%A7%E0%B8%9C%E0%B9%89%E0%B8%B2%E0%B8%97%E0%B8%A7%E0%B8%B4%E0%B8%A5%E0%B8%AA%E0%B8%B5%E0%B8%82%E0%B8%B2%E0%B8%A7off-white_%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2.jpg');
 
   // Function to handle button clicks and change the image source
   const handleButtonClick = (newImage, buttonText) => {
