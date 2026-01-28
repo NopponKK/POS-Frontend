@@ -125,7 +125,7 @@ const Checkout = () => {
                       <img
                       alt="กรุณารีเฟรช "
                       src={
-                        "http://localhost:5000/uploads/" + item.file}
+                        "https://pos-backend-f8yf.onrender.com/uploads/" + item.file}
                       style={{ width: 200, height: 200 }}
                     />
                     : <ShirtSize/>
