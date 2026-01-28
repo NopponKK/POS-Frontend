@@ -117,7 +117,7 @@ const ProductCard = ({ data }) => {
               <div style={{ height: 200, overflow: "hidden" }}>
                 <img
                   alt={data.name}
-                  src={"https://pos-backend-f8yf.onrender.com/" + data.file}
+                  src={"https://pos-backend-f8yf.onrender.com/uploads/" + data.file}
                   style={{ width: "100%", objectFit: "cover" }}
                 />
               </div>

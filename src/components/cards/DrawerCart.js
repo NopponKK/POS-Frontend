@@ -90,7 +90,7 @@ const DrawerCart = () => {
         <Grid item>
           <ButtonBase>
 
-            <img alt="complex" src={"https://pos-backend-f8yf.onrender.com/" + item.file} width={150} height={150}/>
+            <img alt="complex" src={"https://pos-backend-f8yf.onrender.com/uploads/" + item.file} width={150} height={150}/>
 
           </ButtonBase>
         </Grid>
