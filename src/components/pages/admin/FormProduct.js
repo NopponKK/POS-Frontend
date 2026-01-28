@@ -212,7 +212,7 @@ const FormProduct = () => {
                                     <TableCell sx={{ textAlign: 'center' }}>{index + 1}</TableCell>
                                     <TableCell width={300} height={150}>
 
-                                        <img src={"https://pos-backend-f8yf.onrender.com/" + item.file}
+                                        <img src={"https://pos-backend-f8yf.onrender.com/uploads/" + item.file}
                                             style={{ maxWidth: '100%', maxHeight: '100%', width: '100%', height: '100%' }}
                                             alt="Product" />
                                     </TableCell>

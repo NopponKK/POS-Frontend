@@ -82,7 +82,7 @@ const FormEditProduct = () => {
           src={
             imagePreview
               ? imagePreview
-              : "https://pos-backend-f8yf.onrender.com/" + data.file
+              : "https://pos-backend-f8yf.onrender.com/uploads/" + data.file
           }
           alt="Product Preview"
           style={{ width: "400px", height: "400px", objectFit: "cover" }}
