@@ -1,0 +1,51 @@
+html,
+body,
+#root,
+.app,
+.content {
+  height: 100%;
+  width: 100%;
+  background-color: #fff;
+  overflow-y: auto;
+  overflow-x: visible;
+}
+*{
+  font-family: 'Kanit', sans-serif;
+  overflow-x: visible;
+}
+
+.content_body {
+ 
+  width: 100%;
+  height: 100%; /* Adjusted to 100vh for full-screen height */
+  overflow-y: auto; /* Use overflow-y for vertical scrolling */
+}
+
+.app {
+  display: flex;
+  position: relative;
+  height: 100vh; /* Set a specific height for the app container */
+
+}
+
+.menu-bars {
+  text-decoration: none;
+  color: #000;
+}
+
+/* Scrollbar styles */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #e0e0e0;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}

@@ -1,0 +1,46 @@
+/* SingleCard.css */
+
+.single-card-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.image-container {
+  width: 100%;
+  text-align: center;
+}
+
+.card-container {
+  width: 100%; /* Initially take full width */
+  margin-top: 20px; /* Optional: Add spacing between image and card */
+}
+
+.product-card {
+  width: 100%;
+}
+
+.tabs-container {
+  width: 100%;
+}
+
+@media (min-width: 1024px) {
+  .single-card-container {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .image-container {
+    width: 50%;
+  }
+
+  .card-container {
+    width: calc(50% - 20px); /* Adjust width minus padding */
+    margin-top: 0; /* Remove top margin */
+    padding: 20px; /* Add padding */
+  }
+
+  .tabs-container {
+    width: 100%;
+    margin-top: 20px; /* Optional: Add spacing between card and tabs */
+  }
+}
