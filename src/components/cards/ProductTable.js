@@ -56,7 +56,7 @@ const ProductTable = ({ item }) => {
         <tbody>
             <td> <img
                 alt={item.name}
-                src={"http://localhost:5000/uploads/" + item.file} width={100} height={100} /></td>
+                src={"https://pos-backend-f8yf.onrender.com/" + item.file} width={100} height={100} /></td>
             <td>{item.name} <br/> จำนวนคงเหลือ:{item.quantity}
             </td>
             <td>{item.price}</td>

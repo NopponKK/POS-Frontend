@@ -87,7 +87,7 @@ const loadData =()=>{
      <Floatingaction />
       <Grid container spacing={2}  style={{width:"100%", boxShadow: "2px 2px 10px rgba(0, 0, 0, 0.2)",height:"650px"}} bgcolor={'white'}>
         <Grid item xs={12} md={8}>
-        <img src={"http://localhost:5000/uploads/" + file} height={550} alt={name} style={{width:'80%'}} />
+        <img src={"https://pos-backend-f8yf.onrender.com/" + file} height={550} alt={name} style={{width:'80%'}} />
         </Grid>
         <Grid item xs={12} md={4}   >
         <Grid container alignItems="center">
